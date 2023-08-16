@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import logo from '../logo512.png';
 
 const Header = () => {
   const [themeColor, setThemeColor] = useState(JSON.parse(localStorage.getItem("themeColor")) || "dark");
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <header>
         <div className='logo'>
-            <img src="" alt="" />
+            <img src={logo} alt="" />
             <span>Task Assign</span>
         </div>
         <div className="themeSelector">
