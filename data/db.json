@@ -1,0 +1,28 @@
+{
+    "products" : [
+        {
+            "id" : "1001",
+            "name" : "Apple",
+            "price" : 12500,
+            "in_stock" : true
+        },
+        {
+            "id" : "1002",
+            "name" : "Samsung",
+            "price" : 12000,
+            "in_stock" : true
+        },
+        {
+            "id" : "1003",
+            "name" : "Sony",
+            "price" : 10000,
+            "in_stock" : false
+        },
+        {
+            "id" : "1004",
+            "name" : "HP",
+            "price" : 11500,
+            "in_stock" : true
+        }
+    ]
+}
